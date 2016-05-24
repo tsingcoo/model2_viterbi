@@ -190,7 +190,7 @@ void model2_align_g(string str, vector<vector<int>>& vv_ch, vector<vector<int>>&
 }
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
+
     string dir_name="/Users/wangql/Desktop/model2_viterbi";
     map<string, int> word2index_ch, word2index_en;
     read_index_word(dir_name+"/corpus.ch.vcb", word2index_ch);//把index2word转储成word2index
